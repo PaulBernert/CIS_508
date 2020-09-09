@@ -1,0 +1,137 @@
+\documentclass[notitlepage]{report}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage[parfill]{parskip}
+
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {C:/Users/PaulB/Documents/msba/scm_518/SCM_518/images/homework_2} }
+
+\usepackage{titling}
+\usepackage{lipsum}
+
+\pretitle{\begin{center}\Huge\bfseries}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\Large\ttfamily}
+\postauthor{\end{center}}
+\predate{\par\large\centering}
+\postdate{\par}
+
+\pagenumbering{gobble}
+
+\title{SCM 518 Module 3 Homework}
+\author{Paul Bernert}
+\date{\today}
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\section*{Question 35}
+\textbf{Question:} A company manufactures two types of trucks. Each truck must go through the painting shop and the assembly shop. If the painting shop were completely devoted to painting Type 1 Trucks, 650 per day could be planted, whereas if the painting shop were completely devoted to painting Type 2 Trucks, 550 per day could be painted. If the assembly shop were completely devoted to assembling Truck 1 engines, 1400 per day could be assembled, whereas if the assembly shop were completely devoted to assembling Truck 2 Engines, 1000 per day could be assembled. It is possible, however, to paint \textit{both} types of trucks in the painting shop. Similarly, it is possible to assemble both types in the assembly shop. Each Type 1 Truck contributes to \$2,500 to profit; each Type 2 Truck contributes \$3,000. Maximize the company's profit.
+
+\textbf{Solution:}
+This problem focuses on maximizing the number of Trucks of two types to produce to maximize profit. In order to solve this, we are given a set of initial values:
+
+$$
+P_{(x,y)} = (2500, 3000)
+$$
+
+$$
+A_{(x,y)} = (1400, 1000)
+$$
+
+$$
+M_{(x,y)} = (650, 550)
+$$
+
+In order to solve this, we must calculate the time to produce one unit of each truck:
+$$
+PTime = \frac{1}{rp} + \frac{1}{ra}
+$$
+
+Where \textit{rp} is the rate of Painting and \textit{ra} is the rate of assembly. The total profit is calculated using the following function:
+$$
+\mathcal{P} = P_{1}*N_{1} + P_{2}*N_{2}
+$$
+
+Where \textit{P} is the profit per truck and \textit{N} is the number of trucks produced. With this information, we have everything needed to write a parameter-scan script (doing this question with Python):
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4.5in]{C:/Users/PaulB/Documents/msba/scm_518/SCM_518/images/homework_2/python_image.png}
+\end{figure}
+
+The optimal number of trucks to produce according to this model would be to maximize the number of Truck 1 up until near capacity, and finish off by producing simply a few of Truck two to make sure capacity is fully met.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4.5in]{C:/Users/PaulB/Documents/msba/scm_518/SCM_518/images/homework_2/python_image_two.png}
+\end{figure}
+
+\section*{Question 36}
+\textbf{Question:} A company manufactures mechanical heart valves from the heart valves of pigs. Different heart operations require valves of different sizes. The company purchases pig valves from three different suppliers. The cost and size mix of the valves purchased from each supplier are given by the file provided. The file also contains the maximum number of valves available from each supplier per month. Each month, the company places an order with each supplier. At least 1,300 large, 900 medium and 400 small valves must be purchased each month.
+
+Solve to determine how the company can minimize the cost of acquiring the needed valves.
+
+\textbf{Solution:}
+
+The number of valves to purchase can be listed as follows:
+$$
+N_{x} = N_{xs}+N_{xm}+N_{xl}
+$$
+
+While the supply constraints for each supplier are the following:
+$$
+N_{1} = 2400
+$$
+
+$$
+N_{2} = 2000
+$$
+
+$$
+N_{3} = 1000
+$$
+
+The following purchasing constraints must also be considered:
+$$
+N_{s} = 400
+$$
+
+$$
+N_{m} = 900
+$$
+
+$$
+N_{l} = 1300
+$$
+
+Thus, the total cost can be calculated using the following structure:
+$$
+T_{x} = C_{1} (N_{1}) + C_{2} (N_{2}) + C_{3} (N_{3})
+$$
+
+With this information, we are able to calculate the minimum cost. We can do that with the following parameter-scanning function (written in C++):
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4.5in]{C:/Users/PaulB/Documents/msba/scm_518/SCM_518/images/homework_2/c_image.png}
+\end{figure}
+
+This parameter-scanning function returns that the optimal number of purchases to minimize cost is as follows:
+
+$$
+N_{(1s, 1m, 1l)} = (0, 0, 0)
+$$
+
+$$
+N_{(2s, 2m, 2l)} = (200, 700, 700)
+$$
+
+$$
+N_{(3s, 3m, 3l)} = (200, 200, 600)
+$$
+
+For a minimum cost of: \$154,000.00.
+
+\end{document}
