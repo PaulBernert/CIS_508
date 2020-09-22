@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.2)  2 SEP 2020 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.2)  13 SEP 2020 17:06
 entering extended mode
-**"./CIS 508 Assignment 1.tex"
-("CIS 508 Assignment 1.tex"
+**"./CIS 508 Assignment 2 Bernert.tex"
+("CIS 508 Assignment 2 Bernert.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-08-07>
 (C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -115,23 +115,34 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
 (C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) ("CIS 508 Assignment 1.aux")
-\openout1 = `"CIS 508 Assignment 1.aux"'.
+)) (C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count186
+\float@exts=\toks17
+\float@box=\box46
+\@float@everytoks=\toks18
+\@floatcapt=\box47
+)
+(C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("CIS 508 Assignment 2 Bernert.aux")
+\openout1 = `"CIS 508 Assignment 2 Bernert.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -141,15 +152,15 @@ LaTeX Font Info:    ... okay on input line 23.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -171,50 +182,46 @@ LaTeX Font Info:    ... okay on input line 23.
 (C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count186
+\scratchcounter=\count187
 \scratchdimen=\dimen145
-\scratchbox=\box46
-\nofMPsegments=\count187
-\nofMParguments=\count188
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count189
+\scratchbox=\box48
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count190
 \MPscratchDim=\dimen146
-\MPnumerator=\count190
-\makeMPintoPDFobject=\count191
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks20
 )
 (C:\Users\PaulB\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
-Overfull \hbox (21.57913pt too wide) in paragraph at lines 35--36
-[]\OT1/cmr/m/n/10 Do Kag-gle sub-mis-sions of your test re-sults from dif-fer-e
-nt de-ci-sion tree mod-els and record all Kag-gle scores/rankings
- []
-
-[1
+) [1
 
 {C:/Users/PaulB/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-("CIS 508 Assignment 1.aux") ) 
+("CIS 508 Assignment 2 Bernert.aux") ) 
 Here is how much of TeX's memory you used:
- 2975 strings out of 481212
- 52312 string characters out of 2905974
- 473184 words of memory out of 3000000
- 18557 multiletter control sequences out of 15000+200000
- 537101 words of font info for 36 fonts, out of 3000000 for 9000
+ 3071 strings out of 481212
+ 53972 string characters out of 2905974
+ 473238 words of memory out of 3000000
+ 18644 multiletter control sequences out of 15000+200000
+ 537727 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,4n,36p,811b,159s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\PaulB\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/PaulB/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PaulB/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PaulB/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PaulB/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "CIS 508 Assignment 1.pdf" (1 page, 48300 bytes).
+ 36i,4n,36p,819b,159s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/PaulB/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/PaulB/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PaulB/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PaulB
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/PaulB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pf
+b><C:/Users/PaulB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmtt12.pfb>
+Output written on "CIS 508 Assignment 2 Bernert.pdf" (1 page, 71839 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
